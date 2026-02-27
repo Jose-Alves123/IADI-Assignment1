@@ -20,9 +20,9 @@ class OrderProcessor(
             id = "ORD-2026-001",
             userId = "user123",
             items = listOf(
-                pt.unl.fct.iadi.orderprocessingplatform.domain.OrderItem("LAPTOP-001", 2, 999.99),
-                pt.unl.fct.iadi.orderprocessingplatform.domain.OrderItem("MOUSE-042", 3, 29.99),
-                pt.unl.fct.iadi.orderprocessingplatform.domain.OrderItem("KEYBOARD-123", 6, 149.99)
+                Order.OrderItem("LAPTOP-001", 2, 999.99),
+                Order.OrderItem("MOUSE-042", 3, 29.99),
+                Order.OrderItem("KEYBOARD-123", 6, 149.99)
             )
         )
 
